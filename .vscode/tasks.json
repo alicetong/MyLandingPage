@@ -1,0 +1,14 @@
+{
+    "version": "0.1.0",
+    "command": "gulp",
+    "isShellCommand": true,
+    "showOutput": "always",
+    "tasks": [
+        {
+            "taskName": "buildsass",
+            "isBuildCommand": true,
+            "showOutput": "always",
+            "isBackground": true
+        }
+    ]
+}
