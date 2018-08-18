@@ -1,0 +1,25 @@
+/*Custom effects and modals*/
+
+
+/*Img mouse hover effect*/
+.item-img
+    position: relative
+    overflow: hidden
+.item-img > a > img
+    max-width: 100%
+    @include transtion-hover(0.3s)
+    &:hover
+        @include fade-on-hover(1.5)
+/*Custom Modals*/
+.modal-content
+    background-color: $black
+    border: 1px solid $white   
+.modal-header
+    border: none
+.modal-header .close
+    color: $white
+    margin: -15px
+    padding: 10px
+.modal-body
+    margin: auto
+    padding: 0px
