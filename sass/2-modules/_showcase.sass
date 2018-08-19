@@ -1,4 +1,4 @@
-/*Custom effects and modals*/
+/*Custom animations effects and modals*/
 
 
 /*Img mouse hover effect*/
@@ -13,13 +13,21 @@
 /*Custom Modals*/
 .modal-content
     background-color: $black
-    border: 1px solid $white   
+    border: 1px solid $gray   
 .modal-header
     border: none
 .modal-header .close
     color: $white
     margin: -15px
     padding: 10px
+
+.close:not(:disabled):not(.disabled) 
+    &:hover
+        color: $white
+    &:focus
+        color: $white
+
 .modal-body
     margin: auto
     padding: 0px
+    margin-bottom: 46px
